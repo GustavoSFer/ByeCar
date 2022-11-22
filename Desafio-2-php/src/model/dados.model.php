@@ -8,6 +8,10 @@ class DadosModel {
   public function __get($atributo) {
     return $this->$atributo;
   }
+
+  public function __set($atributo) {
+    return $this->$atributo;
+  }
 }
 
 ?>

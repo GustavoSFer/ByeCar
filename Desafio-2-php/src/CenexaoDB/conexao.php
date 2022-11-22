@@ -1,5 +1,5 @@
 <?php
-
+// Classe de conexao. fake
 class Conexao {
 
   private $host = 'localhost';
