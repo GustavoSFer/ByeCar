@@ -1,4 +1,5 @@
 const service = require('../Service');
+const { verifyToken } = require('../Token');
 
 const getAll = async (req, res, next) => {
   // Recebe o token pelo authorization do headers
